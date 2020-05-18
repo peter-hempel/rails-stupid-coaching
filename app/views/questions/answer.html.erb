@@ -1,10 +1,23 @@
-<%= params[:question] %>
+<div class="container">
 
-<p>- You</p>
+  <h1>Stupid Coaching</h1>
 
-<br>
+  <div class="box" >
+    <%= params[:question] %>
+    <p>//You</p>
+  </div>
 
-<%= @answer %>
-<p>- Your Coach</p>
+  <br>
 
-<%= link_to "Ask your question!", ask_path %>
+  <div class="box">
+    <%= @answer %>
+    <p>//Your Coach</p>
+  </div>
+
+  <%= link_to "Ask your question!", ask_path %>
+
+  <iframe src="https://giphy.com/embed/l0K4hqqqwgFijgVLa" width="480" height="296" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/afv-americas-funniest-home-videos-l0K4hqqqwgFijgVLa">Go to GIPHY</a></p>
+
+</div>
+
+

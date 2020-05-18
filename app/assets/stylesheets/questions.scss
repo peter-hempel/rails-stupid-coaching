@@ -1,3 +1,69 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// Defining a variable
+
+body {
+  background: #EEEEEE; // Using this variable
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: #333333;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: Helvetica;
+  color: #95389E;
+  font-size: 28px;
+  font-size: normal;
+}
+
+#question-input {
+  height: 20px;
+}
+
+#ask-button {
+  background-color: #95389E;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+#ask-button:hover {
+  color: #333333;
+}
+
+.box {
+  border-left: 3px solid #95389E;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #95389E;
+  border-box: 1px solid #95389E;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+
+
+  &:hover {
+    color: #333333;
+  }
+}
+
+.giphy-embed {
+  margin-top: 20px;
+}
+
